@@ -1,5 +1,8 @@
 # SingleScreenApp
-Final project for lessons 1A and 1B for Udacity course Android Basics
+
+Udacity EU Scholarship Android Development for Beginners
+
+Final project for lessons 1A and 1B
 
 ## Build a Single Screen App
 
