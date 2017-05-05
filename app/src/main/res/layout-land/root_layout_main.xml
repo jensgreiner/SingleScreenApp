@@ -1,381 +1,374 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/claasenHouse"
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:contentDescription="Claasen Headquarter"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/p1020015" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/claasenHouse"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start"
+                android:text="Claasen Communication"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                android:textColor="@android:color/white" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignEnd="@+id/claasenHouse"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/claasenHouse"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="0dp"
+                android:contentDescription="Claasen Logo"
+                app:srcCompat="@drawable/logo_c" />
+
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
             android:orientation="vertical">
 
-            <RelativeLayout
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="One of the leading German public relations agencies in the travel and tourism industry."
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/colorPrimary" />
 
-                <ImageView
-                    android:id="@+id/claasenHouse"
-                    android:layout_width="match_parent"
-                    android:layout_height="275dp"
-                    android:contentDescription="Claasen Headquarter"
-                    android:scaleType="centerCrop"
-                    app:srcCompat="@drawable/p1020015" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/claasenHouse"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerInParent="true"
-                    android:layout_marginBottom="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginLeft="16dp"
-                    android:layout_marginRight="16dp"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginTop="16dp"
-                    android:text="Claasen Communication"
-                    android:textAlignment="viewStart"
-                    android:gravity="start"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Display2"
-                    android:textColor="@android:color/white" />
-
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_alignEnd="@+id/claasenHouse"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignRight="@+id/claasenHouse"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginRight="0dp"
-                    android:layout_marginTop="0dp"
-                    android:contentDescription="Claasen Logo"
-                    app:srcCompat="@drawable/logo_c" />
-
-            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="24dp"
+                android:gravity="start"
+                android:text="Contact"
+                android:textAlignment="viewStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryDark" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_margin="16dp"
+                android:layout_height="wrap_content"
+                android:dividerPadding="15dp"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="One of the leading German public relations agencies in the travel and tourism industry."
-                    android:textAlignment="viewStart"
-                    android:gravity="start"
+                    android:autoLink="phone"
+                    android:drawableLeft="@android:drawable/ic_menu_call"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@android:drawable/ic_menu_call"
+                    android:text="+49 6257 68781"
                     android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                     android:textColor="@color/colorPrimary" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="24dp"
-                    android:text="Contact"
-                    android:textAlignment="viewStart"
-                    android:gravity="start"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                    android:textColor="@color/colorPrimaryDark" />
+                    android:autoLink="map"
+                    android:drawableLeft="@android:drawable/ic_menu_mapmode"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@android:drawable/ic_menu_mapmode"
+                    android:maxLines="3"
+                    android:minLines="3"
+                    android:text="Hindenburgstraße 2\n64665 Alsbach\nGermany"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="email"
+                    android:drawableLeft="@android:drawable/ic_menu_send"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@android:drawable/ic_menu_send"
+                    android:text="info@claasen.de"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:drawableLeft="@android:drawable/ic_menu_compass"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@android:drawable/ic_menu_compass"
+                    android:text="www.claasen.de"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/colorPrimary" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp"
+                android:text="Customers"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="?attr/dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Tour Operator"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/colorPrimary" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:dividerPadding="15dp">
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="match_parent"
+                    <ImageView
+                        android:layout_width="179dp"
+                        android:layout_height="65dp"
+                        android:contentDescription="Ameropa Logo"
+                        app:srcCompat="@drawable/ameropa" />
+
+                    <ImageView
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:drawableLeft="@android:drawable/ic_menu_call"
-                        android:drawableStart="@android:drawable/ic_menu_call"
-                        android:drawablePadding="5dp"
-                        android:text="+49 6257 68781"
-                        android:autoLink="phone"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimary"
-                        />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:drawableLeft="@android:drawable/ic_menu_mapmode"
-                        android:drawableStart="@android:drawable/ic_menu_mapmode"
-                        android:drawablePadding="5dp"
-                        android:minLines="3"
-                        android:maxLines="3"
-                        android:text="Hindenburgstraße 2\n64665 Alsbach\nGermany"
-                        android:autoLink="map"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimary" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:drawableLeft="@android:drawable/ic_menu_send"
-                        android:drawableStart="@android:drawable/ic_menu_send"
-                        android:drawablePadding="5dp"
-                        android:text="info@claasen.de"
-                        android:autoLink="email"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimary" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:drawableLeft="@android:drawable/ic_menu_compass"
-                        android:drawableStart="@android:drawable/ic_menu_compass"
-                        android:drawablePadding="5dp"
-                        android:text="www.claasen.de"
-                        android:autoLink="web"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-                        android:textColor="@color/colorPrimary" />
-
+                        android:layout_weight="1"
+                        android:contentDescription="Aviation Tourism Logo"
+                        app:srcCompat="@drawable/aviationtourism" />
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginTop="16dp"
-                    android:text="Customers"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-                    android:textColor="@color/colorPrimaryDark" />
+                    android:layout_marginTop="8dp"
+                    android:text="Aviation"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="136dp"
+                        android:layout_height="42dp"
+                        android:layout_marginEnd="4dp"
+                        android:layout_marginRight="4dp"
+                        android:contentDescription="Air Astana Logo"
+                        app:srcCompat="@drawable/airastana" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_weight="1"
+                        android:contentDescription="Sun Express Logo"
+                        app:srcCompat="@drawable/sunexpress" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_weight="1"
+                        android:contentDescription="United Airlines Logo"
+                        app:srcCompat="@drawable/united" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Destinations"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/colorPrimary" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:divider="?attr/dividerHorizontal"
-                    android:orientation="vertical"
-                    android:showDividers="middle"
-                    android:weightSum="1">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Tour Operator"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:textColor="@color/colorPrimary" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="16dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="179dp"
-                            android:layout_height="65dp"
-                            android:contentDescription="Ameropa Logo"
-                            app:srcCompat="@drawable/ameropa" />
-
-                        <ImageView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/aviationtourism"
-                            android:contentDescription="Aviation Tourism Logo"/>
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Aviation"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:textColor="@color/colorPrimary" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="16dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="136dp"
-                            android:layout_height="42dp"
-                            android:layout_marginEnd="4dp"
-                            android:layout_marginRight="4dp"
-                            android:contentDescription="Air Astana Logo"
-                            app:srcCompat="@drawable/airastana" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="4dp"
-                            android:layout_marginRight="4dp"
-                            android:layout_weight="1"
-                            android:contentDescription="Sun Express Logo"
-                            app:srcCompat="@drawable/sunexpress" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="4dp"
-                            android:layout_marginLeft="4dp"
-                            android:layout_weight="1"
-                            app:srcCompat="@drawable/united"
-                            android:contentDescription="United Airlines Logo"/>
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Destinations"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:textColor="@color/colorPrimary" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginBottom="16dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="97dp"
-                            android:layout_height="match_parent"
-                            android:contentDescription="CRUSA Logo"
-                            app:srcCompat="@drawable/crusa" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:contentDescription="Virginia Beach Logo"
-                            app:srcCompat="@drawable/virginiabeach" />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:contentDescription="Rockford Logo"
-                            app:srcCompat="@drawable/rockford" />
-
-                        <ImageView
-                            android:layout_width="86dp"
-                            android:layout_height="117dp"
-                            android:contentDescription="Great Rivers Logo"
-                            app:srcCompat="@drawable/greatriverroadcountry" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Sales"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:textColor="@color/colorPrimary" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginBottom="16dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:contentDescription="LH City Center Logo"
-                            app:srcCompat="@drawable/lhcc" />
-
-                        <ImageView
-                            android:layout_width="183dp"
-                            android:layout_height="63dp"
-                            android:contentDescription="eBookers Logo"
-                            app:srcCompat="@drawable/ebookers" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:text="Technology"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:textColor="@color/colorPrimary" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginBottom="16dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="132dp"
-                            android:layout_height="59dp"
-                            android:contentDescription="Travelport Logo"
-                            app:srcCompat="@drawable/travelport" />
-
-                        <ImageView
-                            android:layout_width="127dp"
-                            android:layout_height="69dp"
-                            android:contentDescription="travel-IT Logo"
-                            app:srcCompat="@drawable/travelit" />
-
-                        <ImageView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:contentDescription="Cruisehost Logo"
-                            app:srcCompat="@drawable/cruisehost" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:contentDescription="Others Logo"
-                        android:text="Others"
-                        android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                        android:textColor="@color/colorPrimary" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_marginBottom="24dp"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="190dp"
-                            android:layout_height="67dp"
-                            android:contentDescription="BARIG Logo"
-                            app:srcCompat="@drawable/barig" />
-
-                        <ImageView
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:contentDescription="taa Logo"
-                            app:srcCompat="@drawable/taa" />
-                    </LinearLayout>
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="0dp"
-                        android:layout_weight="0.99"
-                        android:adjustViewBounds="true"
-                        android:contentDescription="Claasen Logo long"
-                        app:srcCompat="@drawable/logo_normal" />
+                        android:layout_width="97dp"
+                        android:layout_height="match_parent"
+                        android:contentDescription="CRUSA Logo"
+                        app:srcCompat="@drawable/crusa" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="Virginia Beach Logo"
+                        app:srcCompat="@drawable/virginiabeach" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="Rockford Logo"
+                        app:srcCompat="@drawable/rockford" />
+
+                    <ImageView
+                        android:layout_width="86dp"
+                        android:layout_height="117dp"
+                        android:contentDescription="Great Rivers Logo"
+                        app:srcCompat="@drawable/greatriverroadcountry" />
                 </LinearLayout>
 
-            </LinearLayout>
-        </LinearLayout>
-    </ScrollView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Sales"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/colorPrimary" />
 
-</LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="LH City Center Logo"
+                        app:srcCompat="@drawable/lhcc" />
+
+                    <ImageView
+                        android:layout_width="183dp"
+                        android:layout_height="63dp"
+                        android:contentDescription="eBookers Logo"
+                        app:srcCompat="@drawable/ebookers" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Technology"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="16dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="132dp"
+                        android:layout_height="59dp"
+                        android:contentDescription="Travelport Logo"
+                        app:srcCompat="@drawable/travelport" />
+
+                    <ImageView
+                        android:layout_width="127dp"
+                        android:layout_height="69dp"
+                        android:contentDescription="travel-IT Logo"
+                        app:srcCompat="@drawable/travelit" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="Cruisehost Logo"
+                        app:srcCompat="@drawable/cruisehost" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:contentDescription="Others Logo"
+                    android:text="Others"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="24dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="67dp"
+                        android:contentDescription="BARIG Logo"
+                        app:srcCompat="@drawable/barig" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:contentDescription="taa Logo"
+                        app:srcCompat="@drawable/taa" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.99"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="Claasen Logo long"
+                    app:srcCompat="@drawable/logo_normal" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
