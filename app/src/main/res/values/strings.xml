@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name" translatable="false">Claasen Communication</string>
+    <string name="claasen_headquarter">Claasen Headquarter</string>
+    <string name="claasen_communication">Claasen Communication</string>
+    <string name="claasen_logo">Claasen Logo</string>
+    <string name="business_description">One of the leading German public relations agencies in the travel and tourism industry.</string>
+    <string name="contact">Contact</string>
+    <string name="phone_number">+49 6257 68781</string>
+    <string name="address">Hindenburgstraße 2 64665 Alsbach Germany</string>
+    <string name="email_address">info@claasen.de</string>
+    <string name="web_address">www.claasen.de</string>
+    <string name="customers">Customers</string>
+    <string name="tour_operator">Tour Operators</string>
+    <string name="ameropa_logo">Ameropa Logo</string>
+    <string name="aviation_tourism_logo">Aviation Tourism Logo</string>
+    <string name="aviation">Aviation</string>
+    <string name="air_astana_logo">Air Astana Logo</string>
+    <string name="sun_express_logo">Sun Express Logo</string>
+    <string name="united_airlines_logo">United Airlines Logo</string>
+    <string name="destinations">Destinations</string>
+    <string name="crusa_logo">CRUSA Logo</string>
+    <string name="virginia_beach_logo">Virginia Beach Logo</string>
+    <string name="rockford_logo">Rockford Logo</string>
+    <string name="great_rivers_logo">Great Rivers Logo</string>
+    <string name="sales">Sales</string>
+    <string name="lh_city_center_logo">LH City Center Logo</string>
+    <string name="ebookers_logo">eBookers Logo</string>
+    <string name="technology">Technology</string>
+    <string name="travelport_logo">Travelport Logo</string>
+    <string name="travel_it_logo">travel-IT Logo</string>
+    <string name="cruisehost_logo">Cruisehost Logo</string>
+    <string name="others_logo">Others Logo</string>
+    <string name="others">Others</string>
+    <string name="barig_logo">BARIG Logo</string>
+    <string name="taa_logo">taa Logo</string>
+    <string name="claasen_logo_long">Claasen Logo long</string>
 </resources>

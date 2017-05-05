@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/airastana.png" />
+        <ignore path="src/main/res/drawable/ameropa.png" />
+        <ignore path="src/main/res/drawable/aviationtourism.png" />
+        <ignore path="src/main/res/drawable/barig.png" />
+        <ignore path="src/main/res/drawable/cruisehost.png" />
+        <ignore path="src/main/res/drawable/crusa.png" />
+        <ignore path="src/main/res/drawable/ebookers.png" />
+        <ignore path="src/main/res/drawable/greatriverroadcountry.png" />
+        <ignore path="src/main/res/drawable/lhcc.png" />
+        <ignore path="src/main/res/drawable/logo_c.png" />
+        <ignore path="src/main/res/drawable/logo_normal.png" />
+        <ignore path="src/main/res/drawable/p1020015.JPG" />
+        <ignore path="src/main/res/drawable/rockford.png" />
+        <ignore path="src/main/res/drawable/sunexpress.png" />
+        <ignore path="src/main/res/drawable/taa.png" />
+        <ignore path="src/main/res/drawable/travelit.png" />
+        <ignore path="src/main/res/drawable/travelport.png" />
+        <ignore path="src/main/res/drawable/united.png" />
+        <ignore path="src/main/res/drawable/virginiabeach.png" />
+    </issue>
+</lint>
